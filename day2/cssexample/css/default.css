@@ -14,19 +14,20 @@
 
 .normal.picture{
 	float: left;
-	margin-left: 350px;
-	margin-right: 10px;
+	margin-right: 30px;
 }
 
 .normal{
 	margin-right: 350px;
 	line-height: 19px;
+	margin-left: 350px;
 }
 
 .other{
 	text-transform: uppercase;
 }
 
-ol{
+ul.list{
 	margin-left: 50px;
 }
+
