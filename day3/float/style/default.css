@@ -5,10 +5,16 @@
 
 .article p{
 	font-size: 32px;
+	clear: left;
+	width: 200px;
 }
 
 body{
-	margin-left: 200px;
-	margin-right: 200px;
+	/*margin-left: 200px;*/
+	/*margin-right: 200px;*/
 	margin-top: 50px;
+}
+
+.two{
+	font-size: 68px;
 }
