@@ -1,0 +1,14 @@
+.image{
+	float: left;
+	margin-right: 30px;
+}
+
+.article p{
+	font-size: 32px;
+}
+
+body{
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 50px;
+}
