@@ -1,0 +1,32 @@
+.usr_prof{
+	background-color: rgba(161, 0,183, 0.9);
+	position: fixed;
+	top: 25px;
+	left: 25px;
+	width: 250px;
+	min-height: 200px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.prof{
+	padding-left: 50px;
+}
+
+.usr_prof h1{
+	text-align: center;
+	color: white;
+	font-family: Georgia, Times, serif;
+	font-size: 28px;
+	margin: 5px;
+}
+
+.usr_prof p{
+	text-align: center;
+	color: white;
+	font-size: 16px;
+	font-family: Georgia, Times, serif;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 5px;
+}
