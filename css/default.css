@@ -1,5 +1,25 @@
 .clock{
+	width: 500px;
+	font-size: 64px;
+	background-color: pink;
+	border: 3px solid blue;
+	height: 300px;
+}
 
+*{
+	font-family: Georgia, Times, sans-serif;
+	box-sizing: border-box;
+}
+
+.clock>div{
+	background-color: blue;
+	float: left;
+	height: 98%;
+	width: 33%;
+	border: 3px dashed pink;
+	text-align: center;
+	line-height: 300px;
+	vertical-align: middle;
 }
 
 .hours{
