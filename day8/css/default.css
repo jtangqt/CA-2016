@@ -1,0 +1,58 @@
+/** {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-size: 24px;
+}
+header,footer {
+  background-color: rgba(200,200,200,0.7);
+}
+header, main, footer {
+  margin: 0;
+  width: 100%;
+  padding: 20px;
+}
+footer {
+  position:absolute;
+  bottom:0;
+}
+#message {
+  background-color:rgba(180,255,255,0.40);
+  border:8px dashed rgba(180,255,255,0.90);
+  height:60px;
+  width:100%;
+}
+#message.error{
+  color: red;
+  background-color:rgba(255,180,180,0.40);
+  border:8px dashed rgba(255,180,180,0.90);
+}
+nav ul {
+  list-style: none;
+}
+nav li {
+  display:inline-block;
+  padding: 0 20px;
+}*/
+
+
+body.overlay::before{
+  position:fixed;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(64,64,64,.8);
+}
+
+#lightbox{
+  position: fixed;
+  left: 20%;
+  right: 20%;
+  top: 20%;
+  height: 250px;
+  background-color: rgba(255, 200, 200, 0.8);
+  border: 2px dashed pink;
+}
