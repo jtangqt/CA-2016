@@ -7,9 +7,9 @@ document.addEventListener("DOMContentLoaded", function(event){
 
 		var today = new Date();
 
-		clock.getElementsByClassName("seconds")[0].innerText =today.getSeconds();
-		clock.getElementsByClassName("minutes")[0].innerText = today.getMinutes();
-		clock.getElementsByClassName("hours")[0].innerText = today.getHours(); 
+		clock.getElementsByClassName("seconds")[0].innerText =pad2Digits(today.getSeconds());
+		clock.getElementsByClassName("minutes")[0].innerText = pad2Digits(today.getMinutes());
+		clock.getElementsByClassName("hours")[0].innerText = pad2Digits(today.getHours()); 
 		}
 
 	var colors = ["#ffe6ee", " #ffccdd", "#ffb3cc", "#ff99bb", "#ff80aa", "#ff6699", " #ff4d88", "#ff3377", "#ff1a66", "#ff0055", "#e6004c", "#cc0044", "#b3003b", "#990033", " #80002a", "#660022", "#4d0019", "#330011", "#1a0008", "#000000", "#260033", "#4d0066", "#730099", "#9900cc"];
@@ -22,6 +22,8 @@ document.addEventListener("DOMContentLoaded", function(event){
 		var seconds = clock.getElementsByClassName("seconds")[0];
 		var minutes = clock.getElementsByClassName("minutes")[0];
 		var hours = clock.getElementsByClassName("hours")[0];
+
+
 
 		var num_seconds= parseInt(seconds.innerText) +1; 
 		//if seconds is a minute or more, increase minutes by 1
@@ -67,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function(event){
 		else{
 			seconds.innerText = pad2Digits(num_seconds);
 		}
-	}, 1);
+	}, 1000);
 
 });
 
