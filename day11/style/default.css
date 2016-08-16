@@ -1,0 +1,115 @@
+nav li{
+	list-style: none; 
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 36px;
+	padding-left: 30px;
+	color: tan;
+	font-weight: bold;
+}
+
+nav{
+	position: absolute;
+	top: 30px;
+	right: 0px;
+}
+
+
+body{
+	margin: 5px 20vw;
+	position: relative;
+}
+
+.column1{
+	display: inline-block;
+	width: 44%;
+	margin-right: 10%;
+}
+
+.column2{
+	display: inline-block;
+	width: 44%;
+	margin-right: 0px;
+}
+
+.anvil{
+	text-align: center;
+	margin: 20px auto;
+	padding:0px;
+}
+
+.anvil img{
+	width: 100%;
+}
+
+.column1 h1, .column2 h1{
+	line-height: normal;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+@media all and (max-width: 1160px){
+	body{
+		margin: 5px 10vw;
+	}
+	.anvil{
+		width: 80%;
+	}
+	.column1{
+		margin-right: 5%;
+		width: 47%;
+	}
+	.column2{
+		width:47%;
+	}
+}
+
+@media all and (max-width: 855px){
+	nav li{
+	display: block;
+	top: 0;
+	padding-left: 0px;
+	padding-top: 15px;
+	}
+	header{
+		display: block;
+		text-align: center;
+	}
+	ul{
+		padding-left: 0px;
+	}
+	nav{
+		position:relative;
+		top: 1px;
+	}
+	.anvil img{
+		display: block;
+	}
+}
+
+@media all and (max-width: 650px){
+	.column2{
+		width: 90%;
+		margin: 0px;
+		margin-left: 20px;
+		display:block;
+		padding: 0px;
+	}
+	.column1{
+		width: 90%;
+		margin: 0px;
+		margin-left: 20px;
+		display:block;
+		padding: 0px;
+	}
+	.column1 h1, .column2 h1{
+		line-height: normal;
+		padding: 30px;
+	}
+	body{
+		margin: 5px;
+	}
+	.anvil{
+		display: none;
+	}
+}
