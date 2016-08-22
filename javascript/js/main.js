@@ -3,7 +3,7 @@ window.onload= function(){
 
 //#2
 	hey();	
-	function hey(){
+	function hey(){ //needs to indicate which element number it is referring to
 		document.getElementsByClassName("hello")[0].innerHTML = "hi";
 	};
 
@@ -13,7 +13,7 @@ var y = 3;
 	var z = x*y;
 	alert("#3 is "+z);
 
-//#4
+//#4 multi-dimensiona array
 
 var Interests= [
 		["GLO", "physics homework", "coding"],
@@ -49,7 +49,7 @@ console.log('enter a number from 1-5 and see what you win (ex. door(3))');
 
 //#8 function
 function door(option) {
-	if (option == "1"){
+	if (option == "1"){//needs to have assignment operator, one equal sign doesnt work
 		console.log("you'll receive a $10 gift card from amazon");
 	}
 	if (option == "2"){
@@ -66,8 +66,8 @@ function door(option) {
 	}
 }
 
-
-//#2b function
+//functions should be global for the console to be able to understand and use them
+//#2b function: this one multiplies a with b!
 
 function two_bfactorial(a,b){
 	c = a
@@ -77,7 +77,7 @@ function two_bfactorial(a,b){
 	console.log(c);
 }
 
-//#2c
+//#2c this uses random number generator to give us a random color
 function whatcolor2use(){
 
 	var n = getRandInt(0, 255);
