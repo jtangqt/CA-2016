@@ -13,8 +13,8 @@ $(".modal_wrapper").click(function(e){
 	});
 	$(".close").click(function(e){
 		e.preventDefault();
-		
-	$("body").removeClass("modal-on");
+		$("body").removeClass("modal-on");
+	
 		if($(this).hasClass("yes")){
 			window.location = "http://rubytuesday.com";
 		}
