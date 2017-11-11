@@ -1,0 +1,32 @@
+.clock{
+	width: 500px;
+	font-size: 64px;
+	background-color: pink;
+	border: 3px solid blue;
+	height: 300px;
+	margin: auto;
+	text-align: center;
+}
+
+*{
+	font-family: Georgia, Times, sans-serif;
+	box-sizing: border-box;
+}
+
+body{
+	text-align: center;
+}
+
+.clock>div{
+	background-color: blue;
+	display: inline-block;
+	height: 250px;
+	width: 30%;
+	border: 3px dashed pink;
+	text-align: center;
+	vertical-align: middle;
+	margin: auto;
+	line-height: 250px;
+	margin-top: 25px;
+}
+
