@@ -1,0 +1,33 @@
+.headline{
+	color: #006400;
+}
+
+
+.sub, .headline{
+	font-family: Georgia, Times, "Times New Roman", serif;
+	text-align: center;
+}
+
+.author{
+	text-align: center;
+} 
+
+.normal.picture{
+	float: left;
+	margin-right: 30px;
+}
+
+.normal{
+	margin-right: 350px;
+	line-height: 19px;
+	margin-left: 350px;
+}
+
+.other{
+	text-transform: uppercase;
+}
+
+ul.list{
+	margin-left: 50px;
+}
+

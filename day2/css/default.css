@@ -1,0 +1,29 @@
+.box {
+	width : 400px;
+	height :300 px;
+	background-color: rgba(176,34,34,.5);
+}
+
+.big{
+	font-size: 64px;
+}
+
+ul{
+	font-size: 2em;
+	list-style-image: url('logo.png');
+	list-style: none;
+}
+
+.box.happy{
+	position: absolute;
+	top: 0; 
+	left: 0;
+}
+
+.storage .box{
+	display:none;
+}
+
+.box, .big{
+	color: pink;
+}

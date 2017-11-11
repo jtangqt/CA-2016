@@ -1,0 +1,89 @@
+body{
+	background-image: url("http://lotsofgreatrecipes.com/wp-content/uploads/2016/01/Fruit-Salad-recipe-2016.jpg");
+	background-attachment: fixed;
+	background-position: bottom;
+	margin: 0px;
+}
+
+main{
+	background-color: rgba(255, 30, 100, .3);
+	min-height: 100px;
+	text-align: center;
+	padding-top: 50px;
+	padding-right: 50px;
+	padding-left: 50px;
+	margin-left: 300px;
+	margin-right: 25px;
+	margin-top: 100px;
+	margin-bottom: 25px;
+	min-width: 350px;
+}	
+
+.box{
+	width: 250px;
+	height: 250px;
+	display:inline-block;
+	border: 2px dashed rgba(255, 30, 100, .8);
+	margin-right: 50px;
+	margin-bottom: 50px;
+	padding: 3px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.img1{
+  background-image: url('http://3.bp.blogspot.com/-82Ivj0CrvLw/U-TiBLlSS8I/AAAAAAAA7yo/9mJjq5cfzic/s700/2014_08_06_fruit-salad-raspberry_9999_45raspberry-fruit-salad.jpgc');	
+}
+
+.img2{
+  background-image: url('http://www.thecookingmom.com/wp-content/uploads/2012/12/Fruit-Salad-with-Honey-Poppy-Seed-Dressing.jpg');
+}
+
+.img3{
+  background-image: url('http://2.bp.blogspot.com/-3dfcXujnKQ0/TmbloqAQ0II/AAAAAAAADHc/GsMXqBGXgko/s1600/sbp+bachelorette+party+weekend+103.jpg');
+}
+.img4{
+  background-image: url('https://lh4.googleusercontent.com/jpKNx9qgDUXV0Rb7nX1xkhhK9M7Vs8IbGQyk0sncvzyJ=s1296-no');
+}
+.img5{
+  background-image: url('http://foodal.com/wp-content/uploads/2015/05/Best-Fruit-Salad-Yogurt-Parfait-Recipe.jpg');
+}
+.img6{
+  background-image: url('https://2.bp.blogspot.com/-wKl_OdFYBr0/U27Q3RdPO_I/AAAAAAAAT2Q/QHEOu8JXP_g/s1600/Orange-Honey-Rainbow-Fruit-Salad-2014FB-wide2.jpg');
+}
+.img7{
+  background-image: url('http://www.inmotionlife.com/wp-content/uploads/Fruit-Salad-Recipe.jpg');
+}
+.img8{
+  background-image: url('http://www.mrwallpaper.com/wallpapers/Fruit-Salad.jpg');
+}
+.img9{
+  background-image: url('http://lifecdn.dailyburn.com/life/wp-content/uploads/2014/08/Watermleon-Fruit-Salad.jpg');
+}
+.img10{
+  background-image: url('http://theblondcook.com/wp-content/uploads/2012/07/pina-colada-fruit-salad-2.jpg');
+}
+.img11{
+  background-image: url('http://foodnetwork.sndimg.com/content/dam/images/food/fullset/2009/11/4/2/FNM_120109-Weekend-Dinners-017_s4x3.jpg.rend.sniipadlarge.jpeg');
+}
+.img12{
+  background-image: url('http://lifecdn.dailyburn.com/life/wp-content/uploads/2015/06/Dragon-Fruit-Salad.jpg');
+}
+.img13{
+  background-image: url('http://foodnetwork.sndimg.com/content/dam/images/food/fullset/2013/3/26/0/WU0411H_fruit-salad-with-orange-vanilla-syrup-recipe_s4x3.jpg');
+}
+.img14{
+  background-image: url('http://www.cookingclassy.com/wp-content/uploads/2015/11/winter_fruit_salad6...jpg');
+}
+.img15{
+  background-image: url('http://cdn-image.myrecipes.com/sites/default/files/styles/420x420/public/image/recipes/sl/05/06/fruit-salad-sl-1069610-x.jpg?itok=4KLEnyQF');
+}
+.img16{
+  background-image: url('http://cdn.iowagirleats.com/wp-content/uploads/2013/07/Easiest-Fruit-Salad-02_mini.jpg');
+}
+
+
+.jump{
+	clear:right;
+}
