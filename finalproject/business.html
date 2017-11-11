@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BLOOP! Business</title>
+	<link rel="stylesheet" href="style/business.css"></link>
+	<meta charset = "UTF-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src = "js/business.js"></script>
+</head>
+
+
+<body>
+
+<div id = "page">
+	<a href = "index.html" class = "top"><h1>BLOOP!</h1></a>
+	<div class = "background_home img1"></div>
+
+
+	<div class = "modal_wrapper">
+		<div class = "modal">
+			<button class = "close">x</button>
+			<div class = "name"></div>
+			<div class = "filtered"></div>
+			<div class ="box"></div>
+		</div>
+	</div>
+	
+	<div class = "something">
+	<div class = "categories"><h2>What are you looking for?</h2></div>
+		<form action="">
+			<div class = "checkbox_wrapper">
+				<ul id = "filters">
+					<li><input type="checkbox" class = "choice" value="high_rating" id = "filter_high_rating"/><label for "filter_high_rating">High Rating</label></li>
+					<li><input type="checkbox" class = "choice" value="high_numprojects" id = "filter_high_numprojects"/><label for "filter_high_numprojects">More than 30 projects</label></li>
+					<li><input type="checkbox" class = "choice" value="inpersonNYC" id = "filter_inpersonNYC"/><label for "filter_inpersonNYC">In NYC</label></li>
+					<li><input type="checkbox" class = "choice" value="low_numprojects" id = "filter_low_numprojects"/><label for "filter_low_numprojects">Less than 10 projects</label></li>
+				</ul>
+			</div>
+
+		</form>
+	</div>
+	<main>	
+	<div class = "port high_rating high_numprojects">
+		<a class = "prof pic1 activate_modal" href = "#"></a>
+		<div class = "profname"></div>
+		<div class = "checked_filters"></div>
+	</div>
+	<div class = "port high_numprojects">
+		<a class = "prof activate_modal pic2" href = "#"></a>
+		<div class = "profname"></div>
+		<div class = "checked_filters"></div>
+	</div>
+	<div class = "port high_rating">
+		<a class = "prof activate_modal pic3" href = "#"></a>
+		<div class = "profname"></div>
+		<div class = "checked_filters"></div>
+	</div>
+	<div class = "port inpersonNYC high_numprojects high_rating">
+		<a class = "prof activate_modal pic4 " href = "#"></a>
+		<div class = "profname"></div>
+		<div class = "checked_filters"></div>
+	</div>
+	<div class = "port low_numprojects high_rating">
+		<a class = "prof activate_modal pic5 " href = "#"></a>
+		<div class = "profname"></div>
+		<div class = "checked_filters"></div>
+	</div>
+	<div class = "port inpersonNYC low_numprojects">
+		<a class = "prof activate_modal pic6 " href = "#"></a>
+		<div class = "profname"></div>
+		<div class = "checked_filters"></div>
+	</div>
+
+
+	</main>
+
+	<footer>
+		<nav>
+			<ul>
+				<li><a href = "index.html">Home</a></li>
+				<li><a href = "index.html#jump_faq">FAQ</a></li>
+				<li><a href = "index.html#jump_contact">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+
+
+</div>
+
+<div id="loading"></div>
+
+</body>
+</html>

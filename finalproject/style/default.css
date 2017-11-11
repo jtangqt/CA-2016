@@ -1,0 +1,254 @@
+/*body + background*/
+body{
+	height: 400vh;
+	margin: 0;
+	width: 100%;
+}
+
+h2{
+	font-size: 64px;
+}
+
+.background_home{
+	position: fixed;
+	height:100vh;
+	width: 100vw;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	z-index: -1;
+}
+
+.img1{
+	background-image: url('../img/background.jpg');
+}
+
+li{
+	display:inline-block;
+}
+
+header{
+	z-index: 3;
+	font-size: 28px;
+	text-align: center;
+	transition: background-color 3s linear;
+	background-color: rgba(255,255,255,0.5);
+}
+
+header a{
+	text-decoration: none;
+	color:rgba(255,255,255,0);
+	transition: color 3s linear;
+}
+
+ul{
+	margin-top:0;
+	margin-bottom: 0;
+	padding: 20px;
+}
+
+li{
+	padding-right: 20px;
+	padding-left: 0px;
+}
+
+.link_contact li{
+	padding-right: 0px;
+}
+
+header.sticky{
+	position: fixed;
+	top: 0;
+	width:100%;
+	text-align:center;
+}
+
+
+.link{
+	cursor:pointer;
+}
+
+/*first page*/
+.home{
+	height: 100vh;
+	background-color: rgba(255,255,255, 0.25);
+	margin: 0px;
+	text-align: center;	
+	position: relative;
+}
+
+.top h1{
+	margin: 0;
+	padding:10px;
+	font-size: 36px;
+}
+
+.home_title{
+	height: 100vh;
+	width: 70%;
+	margin: 0;
+	margin-left: 15%;
+	position: absolute;
+	top: 0;
+	text-align: center;
+	display: table;
+}
+
+.legacy{
+	display:table-cell;
+	vertical-align: middle;
+	font-size: 96px;
+}
+
+.option{
+	height: 100vh;
+	width: 50%;
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	margin: 0;
+}
+
+.dev{
+	left: 0;
+}
+
+.bus{
+	right: 0;
+}
+
+.role{
+	width: 150px;
+	height: 80px;
+	border: 2px solid white;
+	position: absolute;
+	bottom: 30px;
+	background-color: rgba(0,0,0, .5);
+	text-decoration: none;
+	color: white;
+	font-size: 24px;
+}
+
+.dev>.role{
+	right: 10px;
+}
+
+.bus>.role{
+	left: 10px;
+}
+
+
+/*second page: about*/
+.about{
+	height: 100vh;
+	background-color: rgba(255,255,255, 0.5);
+	margin: 0px;
+	position: relative;
+}
+
+.about p{
+	font-size: 28px;
+}
+
+.about h2,.about p{
+	margin: 0px;
+}
+
+.title{
+	position: absolute;
+	top: 20vh;
+	width: 70%;
+	text-align: center;
+	margin-left: 15%;
+}
+
+.about_body{
+	position: absolute;
+	top: 30vh;
+	width: 70%;
+	text-align: center;
+	margin-left: 15%;
+	margin-top: 10px;
+}
+
+/*third page: FAQ*/
+.faq{
+	height: 100vh;
+	background-color: rgba(255,255,255, 0.75);
+	margin: 0px;
+	position: relative;
+	text-align:center;
+}
+
+.faq p{
+	width: 70%;
+	margin-left: 15%;
+	font-size: 28px;
+}
+
+.option.left, .option.right{
+	top: 30vh;
+	font-size: 36px;
+}
+
+.left{
+	left: 0;
+}
+
+.right{
+	right: 0;
+}
+
+h3.subtitle{
+	font-style: italic;
+	font-size: 30px;
+}
+
+label {
+	font-size: 28px;
+}
+
+.right p{
+	margin-bottom: 0px;
+}
+
+form{
+	margin-top: 0px;
+}
+
+/*fourth page: contact us!*/
+.contact{
+	height: 100vh;
+	background-color: rgba(255,255,255, .9);
+	margin: 0px;
+	position:relative;
+}
+
+.content{
+	width: 70%;
+	margin-left: 15%;
+	position: relative;
+	top: 35vh;
+	text-align: center;
+}
+
+.name, .email, .message{
+	margin-bottom: 20px;
+	height: 28px;
+	border-radius: 15px;
+	background-color: rgba(0,0,0,0);
+}
+
+.name{
+	margin-top: 30px;
+}
+
+.message{
+	height: 300px;
+	width: 400px;
+}
+
+input[type= "text"]{
+	font-size: 24px;
+}
+

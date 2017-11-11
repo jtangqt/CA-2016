@@ -1,0 +1,69 @@
+/*top part of the two page content*/
+.home_text h1{
+	vertical-align: center;
+	font-size:96px;
+	width: 80vw;
+	margin: 0 auto;
+	padding-top: 30vh;
+	font-style: bold;
+}
+
+.home_text {
+	height: 100vh;
+	text-align: center;
+}
+
+/*part two of the 2 page content*/
+.box{
+	width: 80vw;
+	margin-left: 10vw;
+	position: absolute;
+	top: 110vh;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: top;
+	z-index: 3;
+	color: white;
+}
+
+.box h3{
+	line-height: 70vh;
+	font-size: 32px;
+}
+
+#box1{
+	background-image: url('../img/collabproject.PNG');
+}
+
+#box2{
+	z-index: 2;
+	background-image: url('../img/imggal.PNG');
+	display:none;
+}
+
+#box3{
+	z-index:1;
+	background-image: url('../img/digitalclock.PNG');
+	display:none;
+}
+
+/*for other devices and sizes*/
+@media all and (max-width: 1280px){
+	.home_text h1{
+		padding-top: 25vh;
+		font-size: 96px;
+	}
+}
+
+@media all and (max-width: 905px){
+	.home_text h1{
+		font-size:72px;
+		padding-top:30vh;
+	}
+}
+
+@media all and (max-width: 700px){
+	.home_text h1{
+		font-size: 64px;
+	}
+}

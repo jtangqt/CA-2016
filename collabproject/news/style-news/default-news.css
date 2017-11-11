@@ -1,0 +1,146 @@
+body {
+	background-color: black;
+}
+
+.col{
+	float:left;
+	width: 33.3%;
+	height: 100vh;
+	margin-left: 0px;
+	text-align: center;
+	background-color: black;
+	padding-top: 10px;
+}
+
+
+main{
+	margin-top: 60px;
+	text-align: center;
+}
+
+#image_wrapper {
+	width:100%;
+}
+
+.col a:link, .col a:visited{
+	text-decoration:none;
+}
+
+.col h1{
+	color: black;
+	font-weight: bold;
+	font-size: 48px;
+	margin: 0px;
+	padding-bottom:10px;
+}
+
+.box1{
+	width: 100%;
+
+	height: 800px;
+	display:inline-block;
+	/*border: 2px dashed rgba(255, 30, 100, .8);*/
+
+	height: 100vh;
+	display:inline-block;
+
+	margin-bottom: 1vh;
+	padding: 3px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-image: url("../../img/ultra2.jpg");
+	position: relative;
+}
+
+.box1 h1 {
+	display:none;
+	color:white;
+	position:relative;
+	text-align:center;
+   top: 400px;
+
+}
+
+
+.box1:hover {
+	background-image: url("../../img/ultra2.jpg");
+	opacity: 0.5;
+   filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.box1:hover h1 {
+   display:inline;
+   
+}
+
+.box2{
+	width: 100%;
+	height: 100vh;
+	display:inline-block;
+	/*border: 2px dashed rgba(255, 30, 100, .8);*/
+	margin-bottom: 1vh;
+	padding: 3px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-image: url("../../img/edc.jpg");
+	position:relative;
+}
+
+.box2:hover {
+	background-image: url("../../img/edc.jpg");
+	opacity: 0.5;
+   filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+.box2 h1 {
+	display:none;
+	color:white;
+	position:relative;
+	text-align:center;
+   top: 400px;
+
+}
+
+.box2:hover h1 {
+   display:inline;
+   
+}
+
+.box3{
+	width: 98%;
+	height: 100vh;
+	display:inline-block;
+	/*border: 2px dashed rgba(255, 30, 100, .8);*/
+	margin-bottom: 1vh;
+	padding: 3px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-image: url("../../img/tomorrowland.jpg");
+
+}
+
+.box3:hover {
+	background-image: url("../../img/tomorrowland.jpg");
+	opacity: 0.5;
+   filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.box3 h1 {
+	display:none;
+	color:white;
+	position:relative;
+	text-align:center;
+   top: 400px;
+
+}
+
+.box3:hover h1 {
+   display:inline;
+   
+}
+h1,p{
+  color: #fff;
+}
+

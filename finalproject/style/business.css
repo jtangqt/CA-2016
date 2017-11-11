@@ -1,0 +1,202 @@
+#page {
+    display: none;
+}
+#loading {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(192, 192, 192, 0.5);
+    background-image: url("http://i.stack.imgur.com/MnyxU.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body{
+	height: 100vh;
+	margin: 0;
+	width: 100%;
+}
+
+.background_home{
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	z-index: -1;
+	top:0;
+	left: 0;
+}
+
+.img1{
+	background-image: url('../img/background.jpg');
+}
+
+/*name and link*/
+.top{
+	text-decoration:none;	
+	color: black;
+	text-align: center;
+}
+
+.top h1{
+	margin: 0;
+	padding:10px;
+	font-size: 36px;
+}
+
+main{
+	position: relative
+	min-height: 100vh;
+}
+
+/*filter for categories*/
+.categories{
+	text-align: left;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.categories h2{
+	margin-top: 0;
+}
+
+.choice{
+	display:inline-block;
+}
+
+.checkbox_wrapper{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.something.sticky{
+	position: fixed;
+	top:0;
+}
+
+form{
+	margin-bottom: 30px;
+}
+
+/*Profile Portion*/
+.port{
+	width: 35%;
+	background-color: rgba(255,255,255,0.5);
+	height: 35vh;
+	margin-left: 10%;
+	display:inline-block;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.prof{
+	width: 80%;
+	height: 70%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain; 
+	margin-left: 10%;
+	margin-top: 10px;
+}
+
+.profname{
+	margin-top: 10px;
+}
+
+.checked_filters{
+	margin-top: 10px;
+}
+
+a.activate_modal{
+	display: block;
+}
+
+body.modal-on{
+	overflow:hidden;
+}
+
+body.modal-on .modal_wrapper{
+	display:block;
+}
+
+.modal_wrapper{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.75);
+	top:0;
+	left: 0;
+	display:none;
+}
+
+.modal{
+	position: relative;
+	top: 30vh;
+	margin: 0 auto;
+	width: 40vw;
+	padding: 15px;
+	background-color: white;
+	border-radius: 30px;
+	height: 40vh;
+	overflow-y: hidden;
+	text-align: center;
+}
+
+.modal a{
+	text-decoration: none;
+}	
+
+.box{
+	width: 70%;
+	height: 70%;
+	margin-left: 15%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain; 
+}
+
+.name{
+	font-size: 30px;
+}
+
+.filtered{
+	font-size: 24px;
+	margin-bottom: 10px
+}
+
+button{
+	position: absolute;
+	top: 10px ;
+	right: 10px;
+}
+
+/*footer*/
+footer{
+	position: relative;
+	height: 10vh;
+	width: 100%;
+	text-align: center;
+	background-color: white;
+	z-index: 1;
+}
+
+li{
+	padding-top: 12px;
+	font-size: 24px;
+	padding-left: 12px;
+}
+
+footer.sticky{
+	position: fixed;
+	bottom: 0;
+}
+
+li{
+	display:inline-block;
+}

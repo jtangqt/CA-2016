@@ -1,0 +1,32 @@
+#one{
+	width: 60vw;
+	background-color: blue;
+	margin: auto;
+}
+
+.propic{
+	width: 28vw;
+	height: 20vh;
+	background-color: red; 
+	display: inline-block;
+}
+
+.about{
+	width: 28vw;
+	height: 20vh;
+	background-color: black;
+	display: inline-block;
+}
+
+.links{
+	width: 28vw;
+	height: 20vh;
+	background-color: yellow;
+}
+
+.videos{
+	width: 28vw;
+	height: 20vh;
+	background-color: green;
+}
+

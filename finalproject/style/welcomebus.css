@@ -1,0 +1,100 @@
+body{
+	height: 100vh;
+	margin: 0;
+	width: 100%;
+	position: relative;
+	text-align: center;
+}
+
+main{
+	background-color: rgba(255,255,255,0.5);
+	height: 100vh;
+}
+
+/*background image*/
+.background_home{
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	top:0;
+	left: 0;
+	z-index: -1;
+}
+
+.img1{
+	background-image: url('../img/background.jpg');
+}
+
+/*header*/
+.top{
+	text-decoration:none;	
+	color: black;
+	z-index: 2;
+}
+
+.top h1{
+	margin: 0;
+	padding:10px;
+	font-size: 36px;
+}
+
+/*Menu Text*/
+.home_title{
+	height: 80vh;
+	width: 70%;
+	margin-top: 10vh;
+	margin-left: 15%;
+	position: absolute;
+	top: 0;
+	text-align: center;
+	display: table;
+}
+
+.large_title{
+	display:table-cell;
+	vertical-align: middle;
+	font-size: 96px;
+}
+
+/*options*/
+.option{
+	height: 80vh;
+	margin-top: 20vh;
+	width: 50%;
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	margin: 0;
+}
+
+.sign-in{
+	left: 0;
+}
+
+.sign-up{
+	right: 0;
+}
+
+.box{
+	width: 150px;
+	height: 80px;
+	border: 2px solid white;
+	position: absolute;
+	bottom: 30px;
+	background-color: rgba(0,0,0, .5);
+	text-decoration: none;
+	color: white;
+	font-size: 24px;
+	line-height:80px;
+}
+
+.sign-in>.box{
+	right: 10px;
+}
+
+.sign-up>.box{
+	left: 10px;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WELCOME TO BLOOP!</title>
+	<link rel="stylesheet" href="style/default.css"></link>
+	<meta charset = "UTF-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="http://cdn.jsdelivr.net/jquery.scrollto/2.1.2/jquery.scrollTo.min.js"></script>
+	<script src = "js/default.js"></script>
+</head>
+
+
+<body>
+
+	<div class = "background_home img1"></div>
+	<div class = "home">
+		<section id = "jump_home">
+			<div class = "top">
+				<h1>BLOOP!</h1>
+			</div>
+			<div class = "home_title">
+				<span class = "legacy">Your Legacy is How You Connect with People</span>
+			</div>
+			<div class = "option dev">
+				<a href = "welcomedev.html" class = "role">I'm a Developer</a>
+			</div>
+			<div class = "option bus">
+				<a href = "welcomebus.html" class = "role">I'm a Small Business Owner</a>
+			</div>
+		</section>
+	</div>
+
+	<header>
+		<section>
+			<nav>
+				<ul>
+					<li><a class = "link link_home" href = "#">Home</a></li>
+					<li><a class = "link link_about" href = "#">About</a></li>
+					<li><a class = "link link_faq" href = "#">FAQ</a></li>
+					<li><a class = "link link_contact" href = "#">Contact</a></li>
+				</ul>
+			</nav>
+		</section>
+	</header>
+
+
+<main>
+
+	<div class = "about">
+		<section id = "jump_about">
+			<div class = "title"><h2>About Us</h2></div>
+			<div class = "about_body">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed enim fringilla, fermentum urna a, placerat purus. Donec blandit blandit risus, id cursus nulla. In placerat feugiat pellentesque. Vivamus eget ex ut elit bibendum gravida sed vitae nibh. Vestibulum porta odio quis tellus vehicula, in imperdiet turpis tempus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam venenatis aliquet lectus, ut efficitur libero finibus nec. Curabitur rutrum egestas libero, quis pulvinar purus rhoncus ut. Duis vel finibus magna. Sed laoreet turpis a justo mollis tempus. Pellentesque at eros ut erat ullamcorper luctus. Sed vel nisi id nunc varius lacinia. <br>
+				Pellentesque condimentum, nunc eu mattis hendrerit, augue leo tempus tellus, ut ultricies metus mauris quis quam. Fusce non mi a lorem rutrum pharetra. Suspendisse facilisis lorem ut mi maximus ornare. Ut nec convallis urna. Phasellus posuere ut elit quis tincidunt. Nam imperdiet lacinia nisi, ut gravida velit euismod vitae. Vivamus lobortis metus non lectus fermentum egestas.</p>
+			</div>
+		</section>
+	</div>
+
+	<div class = "faq">
+		<section id = "jump_faq">
+			<div class = "title"><h2>FAQ</h2></div>
+			<div class = "option left">
+				<h3>Developer</h3>
+				<p>Pellentesque condimentum, nunc eu mattis hendrerit, augue leo tempus tellus, ut ultricies metus mauris quis quam. Fusce non mi a lorem rutrum pharetra. Suspendisse facilisis lorem ut mi maximus ornare. Ut nec convallis urna. Phasellus posuere ut elit quis tincidunt. Nam imperdiet lacinia nisi, ut gravida velit euismod vitae. Vivamus lobortis metus non lectus fermentum egestas.</p>
+			</div>
+			<div class = "option right">
+				<h3>Business Owner</h3>
+				<h3 class ="subtitle">How much does it cost to hire a developer?</h3>
+				<p>Enter their rating & their number of projects</p>
+				<form id = "business">
+					<label for "rating">Rating </label><input name = "rating"/>
+					<br>
+					<label for "num_projects">Number of Projects </label><input name = "num_projects"/>
+					<br>
+					<input type = "submit" value = "Submit"/>
+				</form>
+				<p class = "devprice">Price: </p>
+			</div>
+		</section>
+	</div>
+
+	<div class = "contact">
+		<section id = "jump_contact">
+			<div class = "title"><h2>Contact Us</h2></div> 
+			<div class = "content">
+				<form id = "contact">
+				<label for "name">Name: </label><input class = "name" name = "name" type= "text"/>
+				<br>
+				<label for "email">Email: </label><input class = "email"name = "email" type= "text"/>
+				<br>
+				<label for "message">Message: </label><input class = "message" name = "message" type= "text"/>
+				<br>
+				<input type = "submit" value = "submit"/>
+			</form>
+			</div>
+		</section>
+	</div>
+</main>
+</body>
+</html>

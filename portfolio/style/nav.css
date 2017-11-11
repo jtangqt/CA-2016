@@ -1,0 +1,90 @@
+/*HEADER*/
+.top a h2{
+	text-decoration: none;
+	color: white;
+}
+
+.top>.right{
+	position: absolute;
+	right: 3px;
+	top: 0;
+}
+
+/*Body of the Content*/
+html{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+body{
+	margin: 0px;
+}
+
+main h2{
+	font-size: 36px;
+}
+
+main{
+	height: 190vh;
+	width: 100%;
+	background-color: pink;
+}
+
+
+/*Page 1 for Home and Contact*/
+.home{
+	width: 100%;
+	text-align: center;
+	height: 100vh;
+	background-repeat: no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: top;
+	background-image: url('http://kingofwallpapers.com/background/background-016.jpg');
+	color: white;
+}
+
+.home h2{
+	margin: 0px;
+}
+
+
+/*Page 2 for Home and Contact*/
+.portfolio{
+	width:100%;
+	text-align: center;
+	height: 90vh;
+}
+
+.portfolio h2{
+	margin: 0px;
+}
+
+/*FOOTER*/
+footer{
+	height: 10vh;
+	text-align: center;
+	display: block;
+}
+
+footer a{
+	margin: 0px;
+	color: blue;
+	font-size: 24px;
+}
+
+li{
+	display:inline-block;
+}
+
+ul{
+	padding: 10px;
+	margin: 0px;
+}
+/* 
+.unsee{
+	background-color: pink;
+	color: pink;
+}*/
+
